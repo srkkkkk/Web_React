@@ -1,19 +1,10 @@
-//import logo from './logo.svg';
-//import './App.css';
 import React from 'react';
-//import {Header, Content, Footer} from './func-components'
-import MsgBox from './class-props';
+import {EventData2} from './event-data'
+//import Banner from './banner'
 
 function App() {  
-  return(
-    <MsgBox
-      text="React & React Native"
-      color="red"
-      bgColor="#ccc"
-      fontSize="18pt"
-      border="solid 3px black"
-    />
-  )
+  return <EventData2/>
+  //return <Banner/>
 }
 
 export default App;
